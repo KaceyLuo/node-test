@@ -33,7 +33,7 @@ var server = http.createServer(function (request, response) {
         <body>
             <h1>逮到了！</h1>
         </body>
-        </html>`)
+        `)
         response.end()
     } else if (path === '/x') {
         response.statusCode = 200
